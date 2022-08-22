@@ -1,0 +1,40 @@
+.player1 {
+  font-family: EldenRingFont;
+  color: rgb(235, 13, 13);
+  text-align: center;
+  position: fixed;
+  top: 45%;
+  left: 35%;
+}
+
+.versus {
+  font-family: EldenRingFont;
+  color: rgb(136, 17, 17);
+  text-align: center;
+  position: fixed;
+  top: 45%;
+  left: 60%;
+}
+
+.player2 {
+  font-family: EldenRingFont;
+  color: rgb(235, 13, 13);
+  text-align: center;
+  position: fixed;
+  top: 45%;
+  left: 80%;
+}
+
+.fightbutton {
+  font-family: EldenRingFont;
+  color: rgb(26, 25, 20);
+  text-align: center;
+  position: fixed;
+  top: 75%;
+  left: 60%;
+  padding: 0.5%;
+  font-size: larger;
+  border-radius: 10%;
+  background-color: goldenrod;
+  size: 100%;
+}
