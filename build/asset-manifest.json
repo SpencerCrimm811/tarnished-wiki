@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.7029506b.css",
-    "main.js": "/static/js/main.986903e2.js",
-    "static/media/Mantinia Regular.otf": "/static/media/Mantinia Regular.17509f704db56aefbca6.otf",
-    "index.html": "/index.html",
-    "main.7029506b.css.map": "/static/css/main.7029506b.css.map",
-    "main.986903e2.js.map": "/static/js/main.986903e2.js.map"
+    "main.css": "./static/css/main.cf75f330.css",
+    "main.js": "./static/js/main.a2e565be.js",
+    "static/media/Mantinia Regular.otf": "./static/media/Mantinia Regular.17509f704db56aefbca6.otf",
+    "index.html": "./index.html",
+    "main.cf75f330.css.map": "./static/css/main.cf75f330.css.map",
+    "main.a2e565be.js.map": "./static/js/main.a2e565be.js.map"
   },
   "entrypoints": [
-    "static/css/main.7029506b.css",
-    "static/js/main.986903e2.js"
+    "static/css/main.cf75f330.css",
+    "static/js/main.a2e565be.js"
   ]
 }
