@@ -62,7 +62,7 @@ class App extends Component {
     var players = [player1, player2]
     var chosenPlayer = Math.floor(Math.random() * players.length)
 
-    fetch(`http://34.207.146.11:3000/Fight${players[chosenPlayer]}`)
+    fetch(`http://174.129.1.155:3000/Fight${players[chosenPlayer]}`)
     .then(data => {
       return data.text()
     })
@@ -73,7 +73,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    fetch(`http://34.207.146.11:3000/Tarnished`)
+    fetch(`http://174.129.1.155:3000/Tarnished`)
     .then(data => {
       return data.json()
     })
