@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7029506b.css",
+    "main.js": "/static/js/main.1cd4d8d8.js",
+    "static/media/Mantinia Regular.otf": "/static/media/Mantinia Regular.17509f704db56aefbca6.otf",
+    "index.html": "/index.html",
+    "main.7029506b.css.map": "/static/css/main.7029506b.css.map",
+    "main.1cd4d8d8.js.map": "/static/js/main.1cd4d8d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7029506b.css",
+    "static/js/main.1cd4d8d8.js"
+  ]
+}

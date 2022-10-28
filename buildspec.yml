@@ -13,8 +13,3 @@ phases:
   post_build:
     commands:
       - echo Executing Post Build Phase
-
-artifacts:
-  baseDirectory: build
-  files:
-    - "**/*"
