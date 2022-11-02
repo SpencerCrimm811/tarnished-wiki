@@ -5,15 +5,19 @@
   position: fixed;
   top: 45%;
   left: 35%;
+  font-size: 2.5vw;
+  white-space: normal;
 }
 
 .versus {
   font-family: EldenRingFont;
   color: rgb(136, 17, 17);
   text-align: center;
-  position: fixed;
+  position:fixed;
   top: 45%;
   left: 60%;
+  font-size: 2.5vw;
+  white-space: normal;
 }
 
 .player2 {
@@ -23,6 +27,8 @@
   position: fixed;
   top: 45%;
   left: 80%;
+  font-size: 2.5vw;
+  white-space: normal;
 }
 
 .fightbutton {
@@ -37,4 +43,5 @@
   border-radius: 10%;
   background-color: goldenrod;
   size: 100%;
+  white-space: normal;
 }

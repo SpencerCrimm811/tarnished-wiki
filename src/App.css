@@ -3,6 +3,10 @@
   src: url("/Users/spencercrimm/Downloads/Mantinia Regular/Mantinia Regular.otf");
 }
 
+.theparent {
+  margin: auto
+}
+
 .titlecard {
   text-align: left;
   font-family: EldenRingFont;

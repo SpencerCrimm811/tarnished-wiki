@@ -102,7 +102,6 @@ class App extends Component {
 
     return(
         <div className="theparent">
-          <meta name="viewport" content="width=device-width,initial-scale=1"/>
           <h1 className="titlecard">Behold, The Tarnished of The Lands Between</h1>
           <label className="chooser" for="tarnished">Choose playing card! : </label>
           <select ref={this.refOne} onChange={this.onChange.bind(this)}>
