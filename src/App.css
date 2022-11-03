@@ -29,6 +29,13 @@
   width: 300px;
 }
 
+@media (max-width: 428px) {
+  .outer {
+    height: 100px;
+    width: 100px;
+  }
+}
+
 .warning {
   font-family: EldenRingFont;
   color: goldenrod;
