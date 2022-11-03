@@ -29,11 +29,13 @@
   width: 300px;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 926px) {
   .outer {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
   }
+
+
 }
 
 .warning {
