@@ -9,7 +9,13 @@ phases:
       - echo Executing Pre Build Phase
   build:
     commands:
-      - echo Executing Build Phase
+      - npm run build
   post_build:
     commands:
       - echo Executing Post Build Phase
+
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: yes
+  base-directory: "tarnished-wiki/build"

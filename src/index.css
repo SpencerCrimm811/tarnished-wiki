@@ -6,3 +6,14 @@ body {
   overflow: hidden;
   height: 100vh;
 }
+
+@media (max-width: 926px) {
+  body {
+    display: flex;
+    background: url("https://preview.redd.it/y1udzivcql471.png?width=640&crop=smart&auto=webp&s=bd5d01bfcf84b8a1af55f89ed241ae99c9e91711");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+  }
+}

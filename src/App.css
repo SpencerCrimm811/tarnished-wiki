@@ -33,12 +33,15 @@
   .outer {
     height: 50px;
     width: 50px;
+    transform: scale(0.8);
+    position: relative;
+    top: 200px;
+    left: 180px;
   }
 
   .theportrait {
     margin: 0;
     padding: 0;
-    transform: scale(0.3);
     display: block;
   }
 
@@ -49,6 +52,11 @@
     height: 50px;
     width: 50px;
     font-family: EldenRingFont;
+    transform: scale(0.4);
+  }
+
+  button {
+    float: left;
   }
 
 

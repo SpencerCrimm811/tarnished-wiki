@@ -45,3 +45,53 @@
   size: 100%;
   white-space: normal;
 }
+
+@media (max-width: 926px) {
+  .player1 {
+    font-family: EldenRingFont;
+    color: rgb(235, 13, 13);
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    font-size: 2.8vw;
+    white-space: normal;
+  }
+
+  .versus {
+    font-family: EldenRingFont;
+    color: rgb(136, 17, 17);
+    text-align: center;
+    position:fixed;
+    top: 30%;
+    left: 45%;
+    font-size: 2.8vw;
+    white-space: normal;
+  }
+
+  .player2 {
+    font-family: EldenRingFont;
+    color: rgb(235, 13, 13);
+    text-align: center;
+    position: fixed;
+    top: 30%;
+    left: 70%;
+    font-size: 2.8vw;
+    white-space: normal;
+  }
+
+  .fightbutton {
+    font-family: EldenRingFont;
+    color: rgb(26, 25, 20);
+    text-align: center;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    padding: 0.5%;
+    font-size: x-large;
+    border-radius: 10%;
+    background-color: goldenrod;
+    size: 100%;
+    white-space: normal;
+  }
+}
