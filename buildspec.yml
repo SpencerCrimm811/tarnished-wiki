@@ -1,21 +1,15 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo Executing Install Phase
   pre_build:
     commands:
-      - echo Executing Pre Build Phase
+      - npm install
   build:
     commands:
       - npm run build
-  post_build:
-    commands:
-      - echo Executing Post Build Phase
 
 artifacts:
   files:
     - "**/*"
-  discard-paths: yes
-  base-directory: "tarnished-wiki/build"
+  discard-paths: no
+  base-directory: build
