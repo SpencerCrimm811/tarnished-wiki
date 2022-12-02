@@ -1,6 +1,10 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - curl -fsSL https://deb.nodesource.com/setup_19.x | bash - &&\
+      - apt install -y nodejs
   pre_build:
     commands:
       - npm install
