@@ -3,7 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - npm install
+      - npm install react react-dom --save
   build:
     commands:
       - npm run build
@@ -11,5 +11,5 @@ phases:
 artifacts:
   files:
     - "**/*"
-  discard-paths: yes
+  discard-paths: no
   base-directory: build

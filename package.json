@@ -2,7 +2,7 @@
   "name": "tarnished-wiki",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://34.207.146.11",
+  "homepage": "http://174.129.1.155",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
