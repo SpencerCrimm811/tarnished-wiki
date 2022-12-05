@@ -1,6 +1,6 @@
 @font-face {
   font-family: EldenRingFont;
-  src: url("/Users/spencercrimm/Downloads/Mantinia Regular/Mantinia Regular.otf");
+  src: url("./Mantinia Regular.otf");
 }
 
 .theparent {
