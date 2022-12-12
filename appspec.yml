@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: /
-    destination: C:\deployedcontent\ER-Frontend
+    destination: C:\Apache24\htdocs
 hooks:
   BeforeInstall:
     - location: C:\Scripts\StopProcesses.ps1
