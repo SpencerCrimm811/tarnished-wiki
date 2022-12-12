@@ -2,4 +2,9 @@ version: 0.0
 os: windows
 files:
   - source: /
-    destination: C:\DeployedContent\ER-Frontend
+    destination: C:\deployedcontent\ER-Frontend
+hooks:
+  BeforeInstall:
+    - location: C:\Scripts\StopProcesses.ps1
+  AfterInstall:
+    - location: C:\Scripts\RestartProcesses.ps1
