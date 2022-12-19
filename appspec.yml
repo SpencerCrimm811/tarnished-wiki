@@ -1,14 +1,14 @@
 version: 0.0
 os: windows
 files:
-  - source: /
+  - source: \
     destination: C:\Apache24\htdocs
 hooks:
   BeforeInstall:
-    - location: Scripts\StopProcesses.ps1
+    - location: C:\Scripts\StopProcesses.ps1
       timeout: 300
       runas: root
   AfterInstall:
-    - location: Scripts\RestartProcesses.ps1
+    - location: C:\Scripts\RestartProcesses.ps1
       timeout: 300
       runas: root
